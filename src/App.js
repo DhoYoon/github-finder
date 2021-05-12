@@ -40,25 +40,3 @@ const App = () => {
 
 export default App;
 
-// class App extends Component {
-//   q = () => 'Bars';
-//   render() {
-//     // const foo = () => 'Bar';
-//     // const name = 'sujin';
-//     // const showName = true;
-//     // const loading = false;
-//     // if (loading) {
-//     //   return <h4>Loading...</h4>;
-//     // }
-//     return (
-//       <div className='App'>
-//         {/* 삼항연산자 if else */}
-//         {loading ? ( <h4>Loading...</h4> ) : ( <h1>Hello {showName ? name : null}</h1> )}
-//         {/* true 출력, false null */}
-//         {loading ? <h4>Loading...</h4> : <h1>Hello {showName && name}</h1>}
-//         <h1>Hello {foo()}</h1>
-//         <h1>Hello {this.q()}</h1>
-//       </div>
-//     );
-//   }
-// }
